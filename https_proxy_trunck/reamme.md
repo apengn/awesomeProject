@@ -1,0 +1,1 @@
+curl -Lv --proxy http://registry.wise2c.com:8888  https://registry.wise2c.com:65001/ -X POST

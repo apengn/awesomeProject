@@ -1,15 +1,59 @@
 package test
 
 import (
+	"context"
 	"fmt"
 	"runtime"
 	"strings"
+	"sync"
 	"testing"
+	"time"
 )
 
+// https://www.ardanlabs.com/blog/2019/04/concurrency-trap-2-incomplete-work.html
 // https://www.ardanlabs.com/blog/2018/12/goroutine-leaks-the-abandoned-receivers.html
 
 // goroutine leaks
+func TestGoroutineLeak(t *testing.T) {
+	fmt.Println("Hello")
+	go func() {
+		for {
+			fmt.Println("Goodbye")
+		}
+	}()
+}
+
+func TestWg(t *testing.T) {
+
+	wg := &sync.WaitGroup{}
+	ctx, cancel := context.WithTimeout(context.Background(), time.Second*2)
+	defer cancel()
+
+	wg.Add(1)
+	go func() {
+		time.Sleep(1 * time.Second)
+		wg.Done()
+	}()
+	shutdown(wg, ctx)
+
+}
+
+func shutdown(wg *sync.WaitGroup, ctx context.Context) {
+
+	ch := make(chan interface{})
+
+	go func() {
+		wg.Wait()
+		close(ch) // only read
+	}()
+
+	select {
+	case <-ch:
+		fmt.Println("execute done")
+	case <-ctx.Done():
+		fmt.Println("timeout")
+	}
+}
 
 func TestGoroutineLeaks(t *testing.T) {
 	records := make([]string, 0)
