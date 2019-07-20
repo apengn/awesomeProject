@@ -2,107 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d86d3bfe-4db9-41d5-a765-80927328a16f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cert/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cert/main2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/atomic/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/errgroup.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/main2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/main3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/main4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/main5.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/main6.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/https_proxy_trunck/registry.wise2c.com.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/https_proxy_trunck/registry.wise2c.com.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro_nats_dome/wp/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro_nats_dome/wp/debug/debug.micro.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro_nats_dome/wp/debug/debug.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro_nats_dome/wp/debug/debug.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro_nats_dome/wp/svc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/debug/debug.micro.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/debug/debug.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/debug/debug.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/svc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pprof/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd2/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd2/cmd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/test1_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/test1_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/https_proxy_trunck/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/https_proxy_trunck/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/semaphore/semaphore.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/semaphore/semaphore.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_test/time_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/time_test/time_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/inconshreveable/mousetrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/inconshreveable/mousetrap/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/inconshreveable/mousetrap/trap_others.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/inconshreveable/mousetrap/trap_windows.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/inconshreveable/mousetrap/trap_windows_1.4.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/License" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/Readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/diff.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/formatter.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/pretty.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/pretty/zero.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/License" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/Readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/indent.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/kr/text/wrap.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/cobra/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/cobra/.mailmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/cobra/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/cobra/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/cobra/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/cobra/args.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/cobra/bash_completions.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/cobra/bash_completions.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/cobra/cobra.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/cobra/command.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/cobra/command_notwin.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/cobra/command_win.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/cobra/zsh_completions.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/bool.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/bool_slice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/bytes.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/count.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/duration.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/duration_slice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/flag.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/float32.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/float64.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/golangflag.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/int.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/int16.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/int32.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/int64.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/int8.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/int_slice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/ip.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/ip_slice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/ipmask.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/ipnet.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/string.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/string_array.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/string_slice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/string_to_int.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/string_to_string.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/uint.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/uint16.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/uint32.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/uint64.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/uint8.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/spf13/pflag/uint_slice.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/https_proxy_trunck/registry.wise2c.com.crt" beforeDir="false" afterPath="$PROJECT_DIR$/https_proxy_trunck/registry.wise2c.com.crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/https_proxy_trunck/registry.wise2c.com.key" beforeDir="false" afterPath="$PROJECT_DIR$/https_proxy_trunck/registry.wise2c.com.key" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,43 +43,45 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/micro_nats_dome/wp/svc.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pprof/web.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="516">
+              <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+              <folding>
+                <element signature="e#14#84#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/slice.go">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/https_proxy_trunck/registry.wise2c.com.crt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../golang.org/x/sync/singleflight/singleflight_test.go">
+        <entry file="file://$PROJECT_DIR$/https_proxy_trunck/registry.wise2c.com.key">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro_nats_dome/wp/svc.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+            <state relative-caret-position="285">
+              <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/net/http/serve_test.go">
+        <entry file="file://$PROJECT_DIR$/pprof/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5910">
-              <caret line="427" column="26" selection-start-line="427" selection-start-column="26" selection-end-line="427" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/main3.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="135">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#103#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -229,8 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/goroutine_leake_test.go" />
-        <option value="$PROJECT_DIR$/example/test1.go" />
         <option value="$PROJECT_DIR$/peng/pkg/http/main.go" />
         <option value="$PROJECT_DIR$/test/race.go" />
         <option value="$PROJECT_DIR$/race/race.go" />
@@ -280,6 +181,8 @@
         <option value="$PROJECT_DIR$/example/atomic/xxx_test.go" />
         <option value="$PROJECT_DIR$/micro_nats_dome/wp/client.go" />
         <option value="$PROJECT_DIR$/micro_nats_dome/wp/svc.go" />
+        <option value="$PROJECT_DIR$/https_proxy_trunck/registry.wise2c.com.key" />
+        <option value="$PROJECT_DIR$/https_proxy_trunck/registry.wise2c.com.crt" />
       </list>
     </option>
   </component>
@@ -300,6 +203,11 @@
             <path>
               <item name="awesomeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesomeProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesomeProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesomeProject" type="462c0819:PsiDirectoryNode" />
+              <item name="https_proxy_trunck" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -440,6 +348,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35592186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -454,7 +363,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.45768026" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.21680216" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4033438" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -471,20 +380,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/go/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/micro/go-plugins/broker/nats/options.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/micro/go-plugins/broker/nats/nats_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -692,16 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pprof/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/errgroup.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -740,16 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1455">
           <caret line="106" column="1" selection-start-line="98" selection-end-line="106" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pprof/web.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-          <folding>
-            <element signature="e#14#84#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,10 +692,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/micro_nats_dome/wp/svc.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="285">
+          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pprof/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pprof/web.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+          <folding>
+            <element signature="e#14#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/https_proxy_trunck/registry.wise2c.com.key">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/https_proxy_trunck/registry.wise2c.com.crt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
