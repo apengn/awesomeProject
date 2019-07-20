@@ -1,12 +1,12 @@
 package main
 
-import "awesomeProject/cmd2"
+import "awesomeProject/cmd"
 
 type S struct {
 }
 
 func main() {
-	cmd2.Execute()
+	cmd.Execute()
 }
 
 // func main() {

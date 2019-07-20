@@ -91,3 +91,17 @@ func Test_InterFace(t *testing.T) {
 	T(test1)
 	t.Log(test1.V)
 }
+
+func Test_xxx(t *testing.T) {
+	fmt.Println(ParseLikeSql("sfsfds%_"))
+}
+
+func ParseLikeSql(s string) string {
+	var escapes, keywords = `\`, []string{"%", "_"}
+	for _, keyword := range keywords {
+		if strings.Contains(s, keyword) {
+			s = strings.Replace(s, keyword, escapes+keyword, -1)
+		}
+	}
+	return s
+}

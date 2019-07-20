@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"net/http"
+	"strings"
 	"time"
 
 	_ "net/http/pprof"
@@ -10,7 +11,7 @@ import (
 	"github.com/uber/makisu/lib/log"
 )
 
-func main() {
+func main44() {
 	go func() {
 		ch := make(chan string, 0)
 
@@ -36,4 +37,18 @@ func main() {
 	}()
 
 	log.Error(http.ListenAndServe(":6060", nil))
+}
+
+func main() {
+	fmt.Println(ParseLikeSql("gssfsfdgsfj%_"))
+}
+
+func ParseLikeSql(s string) string {
+	var escapes, keywords = `\`, []string{"%", "_"}
+	for _, keyword := range keywords {
+		if strings.Contains(s, keyword) {
+			s = strings.Replace(s, keyword, escapes+keyword, -1)
+		}
+	}
+	return s
 }

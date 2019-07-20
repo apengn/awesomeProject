@@ -17,3 +17,13 @@ func TestTime(t *testing.T) {
 func TestXorm(t *testing.T) {
 
 }
+
+func TestTick(t *testing.T) {
+	ticker := time.NewTicker(5 * time.Second)
+	c := ticker.C
+	for now := range c {
+		fmt.Printf("%v %s\n", now, "")
+		ticker.Stop()
+		break
+	}
+}

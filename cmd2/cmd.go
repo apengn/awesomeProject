@@ -14,7 +14,6 @@ var Cmd = &cobra.Command{
                 love by spf13 and friends in Go.
                 Complete documentation is available at http://hugo.spf13.com`,
 	Run: func(cmd *cobra.Command, args []string) {
-
 	},
 }
 
@@ -27,10 +26,8 @@ func Execute() {
 var cfgFile string
 
 func init() {
-	cobra.OnInitialize(initConfig)
+	cobra.OnInitialize(func() {
+		fmt.Println(cfgFile)
+	})
 	Cmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.cobra.yaml)")
-}
-
-func initConfig() {
-	fmt.Println(cfgFile)
 }

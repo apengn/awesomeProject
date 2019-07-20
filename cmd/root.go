@@ -2,7 +2,6 @@ package cmd
 
 import (
 	"awesomeProject/cmd2"
-	"awesomeProject/cmd3"
 	"fmt"
 	"os"
 
@@ -22,7 +21,7 @@ var rootCmd = &cobra.Command{
 
 func Execute() {
 
-	rootCmd.AddCommand(cmd2.Cmd, cmd3.Cmd)
+	rootCmd.AddCommand(cmd2.Cmd)
 	if err := rootCmd.Execute(); err != nil {
 		os.Exit(1)
 	}
