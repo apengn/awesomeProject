@@ -102,7 +102,7 @@ func Send() {
 	c := service.Client()
 	time.Sleep(1 * time.Second)
 
-	response, err := debug.NewGreeterService("greeter", c).Hello(context.TODO(), &debug.Request{Name: "xxxxxx"})
+	response, err := debug.NewGreeterService("greeter", c).Hello(context.TODO(), &debug.Request{Name: "pppppp"})
 
 	if err != nil {
 		return

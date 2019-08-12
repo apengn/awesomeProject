@@ -48,7 +48,7 @@ func main() {
 	transport := natsTransport.NewTransport(natsTransport.Options(defaultOptions))
 	broker := nats.NewBroker(nats.Options(defaultOptions))
 	service := micro.NewService(
-		micro.Name("greeter"),
+		micro.Name("greeter1"),
 		micro.Registry(registry),
 		micro.Broker(broker),
 		micro.Transport(transport),
@@ -57,7 +57,7 @@ func main() {
 
 	c := service.Client()
 
-	response, err := debug.NewGreeterService("greeter", c).Hello(context.TODO(), &debug.Request{Name: "xxxxxx"})
+	response, err := debug.NewGreeterService("greeter", c).Hello(context.TODO(), &debug.Request{Name: "www"})
 
 	if err != nil {
 		return
