@@ -1,4 +1,6 @@
+.PHONY:default
 default:
 	@make -C ./debug/ default
+.PHONY:clean
 clean:
-	@make -C ./debug clean
+	$(MAKE) -C ./debug clean

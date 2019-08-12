@@ -2,155 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d86d3bfe-4db9-41d5-a765-80927328a16f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/micro_nats_dome/wp/debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_dome/wp/debug/debug.micro.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_dome/wp/debug/debug.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/svc.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/svc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/http2/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/http2/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/idna/idna.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/idna/tables.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/cmsghdr.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/cmsghdr.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/cmsghdr_bsd.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/cmsghdr_bsd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/cmsghdr_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/cmsghdr_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/error_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/error_unix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/iovec_64bit.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/iovec_64bit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/iovec_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/iovec_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/mmsghdr_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/mmsghdr_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/mmsghdr_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/mmsghdr_unix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/msghdr_bsd.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/msghdr_bsd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/msghdr_bsdvar.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/msghdr_bsdvar.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/msghdr_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/msghdr_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/rawconn_msg.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/rawconn_msg.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/rawconn_nomsg.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/rawconn_nomsg.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/sys_bsd.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/sys_bsd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/sys_bsdvar.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/sys_bsdvar.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/sys_go1_12_darwin.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/sys_posix.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/sys_posix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/sys_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/internal/socket/sys_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/control_bsd.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/control_bsd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/control_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/control_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/control_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/control_unix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/helper.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/payload_cmsg.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/payload_cmsg.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/payload_nocmsg.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/payload_nocmsg.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/sockopt_posix.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/sockopt_posix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/sockopt_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/sockopt_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/sys_asmreq.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/sys_asmreq.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/sys_asmreq_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/sys_asmreq_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/sys_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv4/sys_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/control_rfc3542_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/control_rfc3542_unix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/control_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/control_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/control_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/control_unix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/icmp_bsd.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/icmp_bsd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/icmp_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/icmp_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/payload_cmsg.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/payload_cmsg.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/payload_nocmsg.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/payload_nocmsg.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sockopt_posix.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sockopt_posix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sockopt_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sockopt_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sys_asmreq.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sys_asmreq.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sys_asmreq_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sys_asmreq_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sys_ssmreq.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sys_ssmreq.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sys_ssmreq_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sys_ssmreq_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sys_stub.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/net/ipv6/sys_stub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/mkall.sh" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/mkall.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/mkerrors.sh" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/mkerrors.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/mksyscall.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/mksyscall.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/mksyscall_aix_ppc.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/mksyscall_aix_ppc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/mksyscall_aix_ppc64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/mksyscall_aix_ppc64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/openbsd_pledge.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/openbsd_unveil.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/sockcmsg_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/sockcmsg_unix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/syscall.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/syscall.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/syscall_aix.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/syscall_aix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/syscall_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/syscall_darwin.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/syscall_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/syscall_linux.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/syscall_linux_arm.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/syscall_linux_arm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/syscall_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/syscall_unix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/types_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/types_darwin.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_aix_ppc.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_aix_ppc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_aix_ppc64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_aix_ppc64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_386.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_386.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_amd64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_arm.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_arm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_arm64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_arm64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_mips.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_mips.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_mips64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_mips64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_mips64le.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_mips64le.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_mipsle.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_mipsle.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64le.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64le.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_riscv64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_riscv64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_s390x.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_s390x.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_sparc64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zerrors_linux_sparc64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_aix_ppc.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_aix_ppc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_aix_ppc64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_aix_ppc64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_aix_ppc64_gc.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_aix_ppc64_gc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_aix_ppc64_gccgo.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_aix_ppc64_gccgo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_386.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_386.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_amd64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_arm.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_arm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_arm64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_arm64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_mips.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_mips.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64le.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_mips64le.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_mipsle.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_mipsle.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64le.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64le.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_riscv64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_riscv64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_s390x.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_s390x.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_sparc64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsyscall_linux_sparc64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysctl_openbsd_386.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysctl_openbsd_386.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysctl_openbsd_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysctl_openbsd_amd64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysctl_openbsd_arm.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysctl_openbsd_arm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_386.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_386.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_amd64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_arm.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_arm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_arm64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_arm64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_mips.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_mips.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_mips64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_mips64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_mips64le.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_mips64le.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_mipsle.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_mipsle.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_ppc64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_ppc64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_ppc64le.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_ppc64le.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_riscv64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_riscv64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_s390x.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_s390x.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_sparc64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/zsysnum_linux_sparc64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_aix_ppc64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_aix_ppc64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_darwin_386.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_darwin_386.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_darwin_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_darwin_amd64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_darwin_arm.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_darwin_arm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_darwin_arm64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_darwin_arm64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_386.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_386.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_amd64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_arm.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_arm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_arm64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_arm64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_mips.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_mips.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_mips64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_mips64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_mips64le.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_mips64le.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_mipsle.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_mipsle.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_ppc64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_ppc64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_ppc64le.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_ppc64le.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_riscv64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_riscv64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_s390x.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_s390x.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_sparc64.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/sys/unix/ztypes_linux_sparc64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/transform/transform.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/transform/transform.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/bidi/bracket.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/bidi/bracket.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/bidi/tables10.0.0.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/bidi/tables10.0.0.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/norm/composition.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/norm/composition.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/norm/forminfo.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/norm/forminfo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/norm/iter.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/norm/iter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/norm/readwriter.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/norm/readwriter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/norm/tables10.0.0.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/norm/tables10.0.0.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/norm/transform.go" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/golang.org/x/text/unicode/norm/transform.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_streming_dome/wp/vendor/modules.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro_nats_dome/wp/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/micro_nats_dome/wp/Makefile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/micro_nats_streming_dome/wp/client.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+            <state relative-caret-position="-55">
+              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -208,38 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/micro_nats_dome/wp/debug/Makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro_nats_dome/wp/debug/debug.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/micro_nats_dome/wp/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro_nats_dome/wp/debug/debug.micro.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -518,7 +353,7 @@
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30777422" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30777422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -531,7 +366,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.45768026" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946752" visible="true" weight="0.46431798" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49946752" visible="true" weight="0.46431798" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005325" side_tool="true" weight="0.40198734" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -809,24 +644,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro_nats_streming_dome/wp/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/micro_nats_streming_dome/wp/go.mod">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
           <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro_nats_streming_dome/wp/go.sum">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -847,24 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro_nats_dome/wp/debug/debug.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/micro_nats_dome/wp/debug/debug.pb.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro_nats_dome/wp/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -875,10 +682,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/micro_nats_streming_dome/wp/go.sum">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro_nats_streming_dome/wp/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro_nats_dome/wp/debug/debug.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/micro_nats_dome/wp/debug/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro_nats_dome/wp/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
