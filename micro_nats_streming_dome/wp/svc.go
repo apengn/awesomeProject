@@ -94,13 +94,9 @@ func main() {
 	)
 	// service.Init()
 	s := service.Server()
-	go func() {
-		for {
-			time.Sleep(2 * time.Second)
-			err = debug.RegisterGreeterHandler(s, &Greeter{})
-		}
 
-	}()
+	time.Sleep(2 * time.Second)
+	err = debug.RegisterGreeterHandler(s, &Greeter{})
 	// micro.RegisterSubscriber("greeter",s,&Greeter{})
 	err = service.Run()
 	if err != nil {

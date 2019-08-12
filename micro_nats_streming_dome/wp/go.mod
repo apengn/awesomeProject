@@ -25,9 +25,9 @@ require (
 	github.com/microcosm-cc/bluemonday v1.0.2 // indirect
 	github.com/nats-io/go-nats v1.7.2
 	github.com/nats-io/go-nats-streaming v0.4.5
-	github.com/nats-io/nats-server v1.4.1 // indirect
 	github.com/nats-io/nats-streaming-server v0.14.2 // indirect
-	github.com/nats-io/nuid v1.0.1 // indirect
+	github.com/nats-io/nats.go v2.0.0+incompatible
+	github.com/nats-io/stan.go v0.5.0 // indirect
 	github.com/prometheus/client_model v0.0.0-20190129233127-fd36f4220a90 // indirect
 	github.com/russross/blackfriday v2.0.0+incompatible // indirect
 	github.com/shurcooL/go v0.0.0-20190121191506-3fef8c783dec // indirect

@@ -36,9 +36,9 @@ var (
 )
 
 func main() {
-	for {
-		Send()
-	}
+	// for {
+	Send()
+	// }
 }
 
 func TestClient() {

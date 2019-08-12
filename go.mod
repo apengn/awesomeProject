@@ -17,10 +17,10 @@ require (
 	github.com/kr/pretty v0.1.0
 	github.com/mattn/go-colorable v0.1.1 // indirect
 	github.com/micro/examples v0.1.0 // indirect
-	github.com/micro/go-micro v1.1.0
-	github.com/micro/go-plugins v1.0.0
+	github.com/micro/go-micro v1.1.0 // indirect
+	github.com/micro/go-plugins v1.0.0 // indirect
 	github.com/microcosm-cc/bluemonday v1.0.2 // indirect
-	github.com/nats-io/go-nats-streaming v0.4.5
+	github.com/nats-io/go-nats-streaming v0.4.5 // indirect
 	github.com/nats-io/nats-server v1.4.1 // indirect
 	github.com/nats-io/nats.go v1.7.2 // indirect
 	github.com/nats-io/stan.go v0.4.5 // indirect
@@ -49,7 +49,9 @@ require (
 	go4.org v0.0.0-20181109185143-00e24f1b2599 // indirect
 	golang.org/x/exp v0.0.0-20190125153040-c74c464bbbf2 // indirect
 	golang.org/x/perf v0.0.0-20190124201629-844a5f5b46f4 // indirect
+	golang.org/x/sync v0.0.0-20190227155943-e225da77a7e6
 	honnef.co/go/tools v0.0.0-20190128043916-71123fcbb8fe // indirect
+	k8s.io/api v0.0.0-20190205051315-663a691defed
 	launchpad.net/gocheck v0.0.0-20140225173054-000000000087 // indirect
 	sigs.k8s.io/structured-merge-diff v0.0.0-20190426204423-ea680f03cc65 // indirect
 	sourcegraph.com/sqs/pbtypes v1.0.0 // indirect
