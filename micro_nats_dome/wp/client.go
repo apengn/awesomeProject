@@ -5,7 +5,6 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"time"
 
 	micro "github.com/micro/go-micro"
 	"github.com/micro/go-plugins/broker/nats"
@@ -57,8 +56,6 @@ func main() {
 	)
 
 	c := service.Client()
-
-	time.Sleep(1 * time.Second)
 
 	response, err := debug.NewGreeterService("greeter", c).Hello(context.TODO(), &debug.Request{Name: "xxxxxx"})
 
